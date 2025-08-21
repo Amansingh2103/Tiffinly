@@ -1,0 +1,2 @@
+// Run this command in your backend directory to install nodemailer:
+npm install nodemailer 

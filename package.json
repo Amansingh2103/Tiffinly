@@ -1,0 +1,14 @@
+{
+  "name": "tiffinly",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "admin": "cd admin && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\" \"npm run admin\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
